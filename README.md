@@ -19,6 +19,10 @@ Steps:
 - Clone this repo to wherever you want
 - Change the port in config.js if desired
 - Make sure that the [port is forwarded](https://www.google.com/search?q=how+to+port+forward) (TCP) and your firewall allows traffic through
+- You'll probably have to set a registry key to get the colors working:
+- Open regedit, navigate to HKEY_CURRENT_USER\Console, then on the right: right click -> New -> DWORD
+- Name it VirtualTerminalLevel, double click on it and change the value to 1
+- Restart any already open command prompts
 - Run `node index.js` (node targeting the index.js file) from anywhere to run the server
 - Run `node makeURL.js` (same as above but with makeURL.js) from anywhere (with arguments) to upload
 
