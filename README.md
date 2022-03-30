@@ -41,7 +41,7 @@ There are a couple options:
 
 ## Usage
 
-`makeURL \<path-to-file-or-folder> [options]`
+`makeURL <path-to-file-or-folder> [options]`
 
 ### Options:
 - `-r`, `--rename`: Set output filename
